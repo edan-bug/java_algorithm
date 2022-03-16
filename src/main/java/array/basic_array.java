@@ -13,7 +13,7 @@ package array;
 
 
 class basic_array {
- public static void main(String[] args) {
+ public static void main(String[]args) {
   
    // create an array
    int[] age = {12, 4, 5, 2, 5};

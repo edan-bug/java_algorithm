@@ -3,9 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inherit;
+package tutorial_inheritance;
 
-import inherit.Vehicle;
+import tutorial_inheritance.Vehicle;
+import tutorial_inheritance.yearCompletion;
 
 /**
  *
@@ -23,13 +24,20 @@ class Car extends Vehicle {
 
     // call the engine type
     myCar.engine1();
+    myCar.yearA();
+    myCar.yearB();
+    
+    
     
 
     // Display the value of the brand attribute (from the Vehicle class) and the value of the modelName from the Car class
-    System.out.println(myCar.brand + " " + myCar.modelName);
-    System.out.println(myCar.brand + " " + myCar.modelName2);
+    System.out.println(myCar.brand1 + " " + myCar.modelName + " " );
+    System.out.println("Year Production:");
+    myCar.yearB();
+    System.out.println(myCar.brand2 + " " + myCar.modelName2 + " ");
+    System.out.println("Year Production:");
+    myCar.yearB();
     
   }
-
 
 }

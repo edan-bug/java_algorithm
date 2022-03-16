@@ -8,12 +8,19 @@ package tutorial_inheritance;
  *
  * @author ed
  */
- class modelName extends yearCompletion{
-    
-    //String mercedes;
-            // Vehicle attribute
-  public String modelName = "Mustang";
-    //String modelName2;
-  public String modelName2 = "audi";
+class yearCompletion implements production{
 
-}
+    @Override
+    public void yearA() {
+        System.out.println("2001");
+    }
+
+    @Override
+    public void yearB() {
+        System.out.println("2000");
+    }
+
+    }
+    
+    
+

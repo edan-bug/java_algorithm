@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package inherit;
+package tutorial_inheritance;
 
 /**
  *
@@ -13,14 +13,22 @@ package inherit;
     
 
 
-public class Vehicle {
-  protected String brand = "Ford";        // Vehicle attribute
-  public String modelName = "Mustang";
-    String modelName2;
+public class Vehicle extends modelName {
+  protected String brand1 = "SUV";
+  protected String brand2 = "Sedan";
+  
     
     
   public void engine1() {                    // Vehicle method
     System.out.println("ver, 1!");
+  }
+  
+  public void yearA(){
+      System.out.println("2001");
+  }
+  
+  public void yearB(){
+      System.out.println("2001");
   }
 }
 
